@@ -1,12 +1,101 @@
-
-body
-{
-    color: blue; 
-}
-
-.test
+h1
 {
     display: flex;
     justify-content: center;
+    
+}
+
+body
+{
+   
+    
+}
+
+.head-cen
+{
+    color: blue; 
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.ingr-cen
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+
+.ingr-input
+{
+    margin: 0px;
+    
+}
+
+
+
+.ingr-output
+{
+    width: 500px;
+    height: 225px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ingr-output-label
+{
+    display: flex;
+    justify-content: center;
+}
+
+.inst-cen
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inst-input
+{
+    margin: 0px;
+    
+}
+
+
+
+.inst-output
+{
+    width: 500px;
+    height: 225px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inst-output-label
+{
+    display: flex;
+    justify-content: center;
+}
+
+.huge
+{
+    width: 150px;
+    height: 50px;
 }
