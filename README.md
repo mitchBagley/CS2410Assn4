@@ -30,6 +30,22 @@ Instructions:
 4. Submit the zip of your project
 
 Design Phase
+* Recipe.js
+    1. Add all consts, all user inputs for the Ingredients list
+    2. Will need methods for
+        A. Adding ingredients to an array (addIngr)
+        B. Removing ingredients from the same array (remIngr)
+    3. Add event listeners for these buttons
+        A. Add ingredients
+        B. Remove ingredients
+    4. Add all consts, all user inputs for the instructions list
+    5. Will need methods for
+        A. Addings instructions to an array (addInst)
+        B. Removing instructions from the same array (remInst)
+    3. Add event listeners for these buttons
+        A. Add instructions
+        B. Remove instructions
+
 
 
 Testing Phase
