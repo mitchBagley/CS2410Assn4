@@ -7,7 +7,7 @@ h1
 
 body
 {
-   
+   background-color: aquamarine;
     
 }
 
@@ -39,8 +39,8 @@ body
 
 .ingr-output
 {
-    width: 500px;
-    height: 225px;
+    width: 700px;
+    height: 325px;
     border: 5px solid black;
     padding: 10px;
     margin: 40px;
@@ -76,8 +76,8 @@ body
 
 .inst-output
 {
-    width: 500px;
-    height: 225px;
+    width: 700px;
+    height: 325px;
     border: 5px solid black;
     padding: 10px;
     margin: 40px;
