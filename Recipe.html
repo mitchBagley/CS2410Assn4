@@ -1,31 +1,31 @@
 <html>
-    <title> Recipe!</title>
-    <link rel="stylesheet" href="Recipe.css">
-    <script src="Recipe.js"></script>
-    <script src="writeRecipeToFile.js"></script>
-    
+    <head>
+        <title> Recipe!</title>
+        <link rel="stylesheet" href="Recipe.css">
+        <script src="Recipe.js" defer></script>
+        <script src="writeRecipeToFile.js" defer></script>
+    </head>
     <body>
         <h1 class="head-cen"> Making a recipe</h1>
         <div class="ingr-cen">
             <div class="ingr-input"> 
                 <label>Add an ingredient here:</label>
-                <input id="ingredient" type ="text">
-                
+                <input id="ingredient" type ="text" onkeydown="handleKeyDown(event)" aria-label="Insert ingredient field">
             </div>
             <div>
-                <button id="add-ingr-button"> Add ingredient!</button>
+                <button id="add-ingr-button" aria-label="Add ingredient!"> Add ingredient!</button>
                 <button id="rem-ingr-button"> Remove an ingredient!</button>
                 <button id="reset-ingrs"> Reset ingredients! </button>
             </div>
             <div class="ingr-output">
                 <b class="ingr-output-label"> Ingredients List! </b>
+                <ul class="ingrs" id="list-of-ingrs"></ul>
             </div>
-          
         </div>
         <div class="inst-cen">
             <div class="inst-input"> 
                 <label>Add instructions here:</label>
-                <input id="instructions" type ="text">
+                <input id="instructions" type ="text" aria-label="Insert instructions field">
             </div>
             <div>
                 <button id="add-inst-button"> Add instructions!</button>
@@ -34,8 +34,9 @@
             </div>
             <div class="inst-output">
                 <b class="inst-output-label"> Instructions List! </b>
+                <ul class="insts" id="list-of-insts"></ul>
             </div>
-           <button class="huge"> MAKE THE RECIPE!</button>
+           <button class="huge" id="recipe-download"> MAKE THE RECIPE!</button>
         </div>
     </body>
 </html>

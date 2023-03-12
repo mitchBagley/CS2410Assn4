@@ -46,15 +46,24 @@ body
     margin: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
-    display: flex;
-    flex-direction: column;
-
+   
+    
 }
 
 .ingr-output-label
 {
     display: flex;
     justify-content: center;
+}
+
+.ingrs
+{
+    display: flex;
+    justify-content: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .inst-cen
