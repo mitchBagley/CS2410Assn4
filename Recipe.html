@@ -6,37 +6,25 @@
         <script src="writeRecipeToFile.js" defer></script>
     </head>
     <body>
-        <h1 class="head-cen"> Making a recipe</h1>
-        <div class="ingr-cen">
-            <div class="ingr-input"> 
-                <label>Add an ingredient here:</label>
-                <input id="ingredient" type ="text" onkeydown="handleKeyDown(event)" aria-label="Insert ingredient field">
+        <h1 class="head-cen"> Making a Recipe</h1>
+        <div class="item-cen">
+            <div class="item-input"> 
+                <label>Add an ingredient or instruction here:</label>
+                <input id="item" type ="text" onkeydown="handleKeyDown(event)" aria-label="Insert ingredient or instruction field">
             </div>
             <div>
-                <button id="add-ingr-button" aria-label="Add ingredient!"> Add ingredient!</button>
-                <button id="rem-ingr-button"> Remove an ingredient!</button>
-                <button id="reset-ingrs"> Reset ingredients! </button>
-            </div>
-            <div class="ingr-output">
-                <b class="ingr-output-label"> Ingredients List! </b>
-                <ul class="ingrs" id="list-of-ingrs"></ul>
-            </div>
-        </div>
-        <div class="inst-cen">
-            <div class="inst-input"> 
-                <label>Add instructions here:</label>
-                <input id="instructions" type ="text" aria-label="Insert instructions field">
+                <button id="add-item-button" aria-label="Add ingredients or instructions!"> Add an item!</button>
+                <button id="reset-items"> Reset everything! </button>
             </div>
             <div>
-                <button id="add-inst-button"> Add instructions!</button>
-                <button id="rem-inst-button"> Remove an instruction!</button>
-                <button id="reset-insts"> Reset instructions! </button>
+                <b> Click an item to remove it from the list </b>
             </div>
-            <div class="inst-output">
-                <b class="inst-output-label"> Instructions List! </b>
-                <ul class="insts" id="list-of-insts"></ul>
+            <div class="item-output">
+                <b class="item-output-label"> Ingredient and Insturction List! </b>
+                <ul class="items" id="list-of-items"></ul>
             </div>
-           <button class="huge" id="recipe-download"> MAKE THE RECIPE!</button>
+            <button class="huge" id="recipe-download"> MAKE THE RECIPE!</button>
         </div>
+        
     </body>
 </html>
