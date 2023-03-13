@@ -1,3 +1,5 @@
+export function writeRecipeToFile(recipe);
+
 //adding all input fields for all methods methods
 const itemInput = document.getElementById("item");
 const addItem = document.getElementById("add-item-button");
@@ -13,7 +15,6 @@ addItem.addEventListener("click", () =>
 {
     let input = itemInput.value;
     itemArray.push(input);
-    console.log(itemArray);
     const item = document.createElement("li");
     item_listOfItems.appendChild(item);
     item.innerText = input;
@@ -26,7 +27,6 @@ function handleKeyDown(event)
     {
         let input = itemInput.value;
         itemArray.push(input);
-        console.log(itemArray);
         const item = document.createElement("li");
         item_listOfItems.appendChild(item);
         item.innerText = input;
@@ -56,11 +56,6 @@ resItems.addEventListener("click", () =>
 //making the recipe download button 
 const makeRecipe = document.getElementById("recipe-download");
 
-//Adding the click part for the button to download the recipe!
-makeRecipe.addEventListener("click", () => 
-{
-    writeRecipeToFile(); //doesn't work as of now
-});
 
 
 

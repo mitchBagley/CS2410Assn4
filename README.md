@@ -49,12 +49,8 @@ Design Phase
 
 
 Testing Phase
-
-
-Implementation Phase
-
-
-Final Push
-
+* At first I had two seperate boxes for the ingredients and instructions. But having one box made everything easier.
+* Spent the most amount of time on removing the items, but it turned out to be the easiest part.
 
 Project Thoughts
+* If I spend more time on this, this could be a lot more polished and improved.
